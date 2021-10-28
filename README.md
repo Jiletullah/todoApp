@@ -6,9 +6,9 @@ You need to have **Spring Tools for Eclipse** plugin downloaded.
 
 
 **With Command Prompt**
-1- Open Comman Prompt as administrator \n
-2- Change directory **(cd)** to project root (that includes **pom.xml**)
-2- Execute command  **mvn clean install**. This will build the project and generate a .jar file in the **target** folder
+1. Open Comman Prompt as administrator 
+2. Change directory **(cd)** to project root (that includes **pom.xml**)
+3. Execute command  **mvn clean install**. This will build the project and generate a .jar file in the **target** folder
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -22,10 +22,10 @@ You need to have **Spring Tools for Eclipse** plugin downloaded.
 
 
 **With Command Prompt**
-1- After executing **mvn clean install** to build the project, execute **mvn dependency:copy-dependencies** . This will collect all the dependencies needed to 
+1. After executing **mvn clean install** to build the project, execute **mvn dependency:copy-dependencies** . This will collect all the dependencies needed to 
    run the project into **/target/dependency**.
-2- Change directory into **/target**
-3- Run the main method with **java -cp TodoAppAssignmentApplication-0.0.1-SNAPSHOT.jar;dependency TodoAppAssignmentApplication** , here use **:** for LINUX/MAC.
+2. Change directory into **/target**
+3. Run the main method with **java -cp TodoAppAssignmentApplication-0.0.1-SNAPSHOT.jar;dependency TodoAppAssignmentApplication** , here use **:** for LINUX/MAC.
    **-cp** defines class path, **TodoAppAssignmentApplication** is the class that is being run that has the main method.
    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -39,4 +39,4 @@ You need to have **Spring Tools for Eclipse** plugin downloaded.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **DOCKER : https://hub.docker.com/r/jilet/todoappassignment**
-  Pull Command : **docker pull jilet/todoappassignment**
+- Pull Command : **docker pull jilet/todoappassignment**
