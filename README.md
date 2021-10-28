@@ -34,7 +34,7 @@ You need to have **Spring Tools for Eclipse** plugin downloaded.
 **HOW TO USE/TEST**
    
    After running, simply open your browser and go to **http://localhost:8080/swagger-ui/#/**. There you can juggle with REST controllers mapped methods. <\b> 
-   **Use "admin" as both username and password for authentication**. After your login, Swagger UI will not ask for anymore authentication. (For some reason)
+   **Use "admin" as both username and password for authentication**. After your login, Swagger UI will not ask for anymore authentication (For some reason). <\b> 
    Unit tests can be run with Eclipse.
    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
