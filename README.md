@@ -28,11 +28,15 @@ You need to have **Spring Tools for Eclipse** plugin downloaded.
 3- Run the main method with **java -cp TodoAppAssignmentApplication-0.0.1-SNAPSHOT.jar;dependency TodoAppAssignmentApplication** , here use **:** for LINUX/MAC.
    **-cp** defines class path, **TodoAppAssignmentApplication** is the class that is being run that has the main method.
    
-   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
    
    
-   **HOW TO USE/TEST**
+**HOW TO USE/TEST**
    
    After running, simply open your browser and go to **http://localhost:8080/swagger-ui/#/**. There you can juggle with REST controllers mapped methods.
    Unit tests can be run with Eclipse.
    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+**DOCKER : https://hub.docker.com/r/jilet/todoappassignment**
+  Pull Command : **docker pull jilet/todoappassignment**
