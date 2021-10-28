@@ -6,7 +6,7 @@ You need to have **Spring Tools for Eclipse** plugin downloaded.
 
 
 **With Command Prompt**
-1- Open Comman Prompt as administrator
+1- Open Comman Prompt as administrator \n
 2- Change directory **(cd)** to project root (that includes **pom.xml**)
 2- Execute command  **mvn clean install**. This will build the project and generate a .jar file in the **target** folder
 
